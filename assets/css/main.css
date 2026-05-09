@@ -3907,3 +3907,21 @@ input, select, textarea {
 			}
 
 		}
+.nav-with-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-with-logo .links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo img {
+    height: 100px;   /* adjust this to resize the logo */
+    width: auto;
+}
