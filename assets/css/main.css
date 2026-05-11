@@ -3922,6 +3922,22 @@ input, select, textarea {
 }
 
 .nav-logo img {
-    height: 100px;   /* adjust this to resize the logo */
+    height: 200px;   /* adjust this to resize the logo */
     width: auto;
+}
+
+.profile-image {
+    width: 400px;     /* shrink size */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 25px;
+    display: block;
+}
+
+.image.fit img.about-image {
+    width: 600px;     /* shrink size */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 25px;
+    display: block;
 }
