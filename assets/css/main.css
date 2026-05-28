@@ -3942,28 +3942,48 @@ input, select, textarea {
     display: block;
 }
 
-.article-nav {
+
+/* article style */ 
+
+.article-list-container {
   text-align: center;
-  margin: 40px 0;
+  margin: 40px auto;
+  max-width: 600px;
 }
 
-.article-nav ul {
+.article-list-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.article-divider {
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #888, transparent);
+  margin: 15px auto 25px auto;
+}
+
+.article-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.article-nav li {
-  margin: 10px 0;
-}
-
-.article-nav a {
-  text-decoration: none;
+.article-list li {
+  margin: 12px 0;
   font-size: 1.2em;
-  color: #ffffff; /* adjust to match your theme */
 }
 
-.article-nav a:hover {
-  text-decoration: underline;
+.article-list a {
+  text-decoration: none;
+  color: #ffffff; /* adjust to match your theme */
+  transition: 0.2s ease;
+}
+
+.article-list a:hover {
+  color: #00aaff; /* highlight color */
+  text-shadow: 0 0 5px #00aaff;
 }
 
