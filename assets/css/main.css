@@ -4051,3 +4051,40 @@ input, select, textarea {
   background: linear-gradient(to right, transparent, #777, transparent);
   margin: 35px auto;
 }
+
+/*Link Icon coloring and sizing */
+/* Container styling */
+.social-icons a {
+    font-size: 40px;        /* icon size */
+    margin-right: 14px;     /* spacing between icons */
+    text-decoration: none;
+}
+
+/* Brand colors */
+.social-icons a.twitch {
+    color: #9146FF;         /* Twitch purple */
+}
+
+.social-icons a.kick {
+    color: #53FC18;         /* Kick green */
+}
+
+.social-icons a.youtube {
+    color: #FF0000;         /* YouTube red */
+}
+
+.social-icons a.tiktok {
+    color: #000000;         /* TikTok black base */
+}
+
+/* Optional: TikTok neon gradient */
+.social-icons a.tiktok i {
+    background: linear-gradient(45deg, #25F4EE, #FE2C55);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Hover effect (optional) */
+.social-icons a:hover {
+    opacity: 0.7;
+}
