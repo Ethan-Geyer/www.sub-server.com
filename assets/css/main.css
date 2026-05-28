@@ -3987,3 +3987,53 @@ input, select, textarea {
   text-shadow: 0 0 5px #00aaff;
 }
 
+
+
+
+/* Article Layout */
+.article-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.article-wrapper h1 {
+  font-size: 2.4em;
+  margin-bottom: 5px;
+}
+
+.article-date {
+  font-size: 1em;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.article-wrapper h2 {
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+.article-wrapper p {
+  margin: 15px 0;
+  line-height: 1.7em;
+}
+
+.article-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.article-wrapper ul li {
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+/* Divider Line */
+.article-divider {
+  width: 70%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 30px auto;
+}
