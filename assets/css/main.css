@@ -3941,3 +3941,29 @@ input, select, textarea {
     margin: 0 auto 25px;
     display: block;
 }
+
+.article-nav {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.article-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-nav li {
+  margin: 10px 0;
+}
+
+.article-nav a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ffffff; /* adjust to match your theme */
+}
+
+.article-nav a:hover {
+  text-decoration: underline;
+}
+
