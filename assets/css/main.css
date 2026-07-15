@@ -4175,3 +4175,10 @@ input, select, textarea {
     border-radius: 8px;
     display: block;
 }
+
+/* Article Thumb nail image sizing */
+
+.ArticleThumbnail {
+    width: 300px;
+    height: 300px;
+}
