@@ -1,9 +1,3 @@
----
-title: Sub-Server
----
-
-
-
 <!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
@@ -21,6 +15,25 @@ title: Sub-Server
      crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
+		<div class="news-banner">
+		<a id="latest-article" href="#" class="banner-link">Loading latest article...</a>
+		</div>
+
+		<script>
+		fetch('articles.json')
+		.then(res => res.json())
+		.then(data => {
+			const newest = data[0];
+			const banner = document.getElementById('latest-article');
+
+			banner.textContent = `Newest Article: ${newest.title}`;
+			banner.href = newest.link;
+		})
+		.catch(err => {
+			console.error("Error loading articles.json:", err);
+			document.getElementById('latest-article').textContent = "Unable to load latest article";
+		});
+		</script>
 
 		<!-- Sidebar -->
 			<section id="sidebar">
