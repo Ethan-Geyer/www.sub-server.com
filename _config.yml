@@ -1,5 +1,4 @@
 title: Sub-Server
 description: Sub-Server website
 markdown: kramdown
-theme: minima   # optional, you can remove this if you want full custom HTML
 permalink: pretty
