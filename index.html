@@ -1,3 +1,11 @@
+---
+permalink: /charity
+title: Chartity Streams and Donations
+---
+
+
+
+
 <!DOCTYPE HTML>
 <!--
 	Hyperspace by HTML5 UP
@@ -6,409 +14,137 @@
 -->
 <html>
 	<head>
-		<title>Sub-Server</title>
+		<title>Sub-Server: Charity Streams and Donations</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382760291772953"
      crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
-		<div class="news-banner">
-		<a id="latest-article" href="#" class="banner-link">Loading latest article...</a>
-		</div>
 
-		<script>
-		fetch('articles.json')
-		.then(res => res.json())
-		.then(data => {
-			const newest = data[0];
-			const banner = document.getElementById('latest-article');
+		<!-- Header -->
+			<header id="header">
 
-			banner.textContent = `Newest Article: ${newest.title}`;
-			banner.href = newest.link;
-		})
-		.catch(err => {
-			console.error("Error loading articles.json:", err);
-			document.getElementById('latest-article').textContent = "Unable to load latest article";
-		});
-		</script>
-
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Information</a></li>
-							<li><a href="#four">Products</a></li>
-							<li><a href="#two">Links</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-
-						<div class="nav-logo">
-							<img src="images/logo.png" alt="Logo">
+															<div class="nav-logo">
+							<img src="../images/logo.png" alt="Logo">
 						</div>
-					</nav>
+				<a href="../index.html" class="title">Sub-Server</a>
+				<nav>
+<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../info/index.html">Info</a></li>
+						<li><a href="../about/index.html"">About</a></li>
+						<li><a href="../servers/index.html">Servers</a></li>
+						<li><a href="../faq/index.html">FAQs</a></li>
+						<li><a href="../Articles/index.html">Articles</a></li>
+						<li><a href="../products/index.html">Products</a></li>
+						<li><a href="../donate/index.html" class="active">Charity & Donations</a></li>
+					</ul>
 
-				</div>
-			</section>
+
+				</nav>
+			</header>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		 <div id="wrapper">
+					</section>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1>Sub-Server: a branch of The Sub Sanctuary</h1>
-							<p>Learn about who we are, what we do, and how to become a part of it.</a><br
+							<h1 class="major">How to use the Prime Sub?</h1>
+							<p>Link your Amazon Prime to Twitch, go to the streamer’s channel, hit Subscribe, and choose “Subscribe Free with Prime.” That’s it — one free sub every month.</p>
 							
-							<ul class="actions">
-								<li><a href="info/index.html" class="button scrolly">Continue to site</a></li>
-							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/logonew.png" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>The Sub Scantuary</h2>
-									<p>You can join our discord server by subscribing to one of our Twitch channels.</p>
-									<ul class="actions">
-										<li><a href="#two" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/server.png" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Game Servers</h2>
-									<p>Join our white listed game servers!</p>
-									<ul class="actions">
-										<li><a href="servers/index.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/gnights.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Game Nights</h2>
-									<p>Get access to our group game nights!</p>
-									<ul class="actions">
-										<li><a href="info/index.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section id="four">
-							<a href="#" class="image"><img src="images/products.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Products</h2>
-									<p>Check out our exclusive products, and suggested items!</p>
-									<ul class="actions">
-										<li><a href="products/index.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-				<!-- Social Links -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="main" class="wrapper">
 						<div class="inner">
-							<h2>Social Links</h2>
-							<p>Go subscribe to one our brands twitch channels to gain access to all our offers!</p>
-							<div class="features">
-
-									<link rel="stylesheet"
-									href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>MusclesMcsex</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/musclesmcsex" target="_blank"> 
-											<i class="fab fa-twitch"></i>
-										</a>
-										
-
-										<a href="https://www.kick.com/musclesmc5ex" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="https://www.youtube.com/@MusclesMcsex" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="https://www.tiktok.com/@muscles_mcsex" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Crimson_Obsession</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/Crimson_Obsession" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="ttps://kick.com/YOURCHANNEL" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>TheHuntsMen</h3> 
-
-									<div class="social-icons">
-										<a href=https://www.twitch.tv/TheHuntsMen" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="https://kick.com/the-hunts-men" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Baronplayzs</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/Baronplayzs" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="https://kick.com/baronplayzs" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Grafto5489</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/Grafto5489" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="ttps://kick.com/YOURCHANNEL" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>LegendofDillian</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/LegendofDillian" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="ttps://kick.com/YOURCHANNEL" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>NerdBird666</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/NerdBird666" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="ttps://kick.com/YOURCHANNEL" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="ttps://youtube.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="ttps://tiktok.com/@YOURCHANNEL" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>MeowmixWarrior</h3>
-
-									<div class="social-icons">
-										<a href="https://www.twitch.tv/meowmixwarrior1" target="_blank">
-											<i class="fab fa-twitch"></i>
-										</a>
-
-										<a href="ttps://kick.com/YOURCHANNEL" target="_blank">
-											<i class="fa-solid fa-k"></i>
-										</a>
-
-										<a href="https://www.youtube.com/@meowmixwarrior9319" target="_blank">
-											<i class="fab fa-youtube"></i>
-										</a>
-
-										<a href="https://www.tiktok.com/@meowmixwarrior1" target="_blank">
-											<i class="fab fa-tiktok"></i>
-										</a>
-									</div>
-								</section>
+							<h1 class="major">Follow VS Subscribe?</h1>
+							<p>Following is free. It just means you want to keep up with the channel. You’ll see when we go live, but that’s it — no extra perks. Subscribing is a paid (or Prime) support option. Subs get actual benefits because they’re directly supporting the streamer. That usually includes: Ad‑free viewing, Exclusive emotes, "foot-pics", Sub‑only channels or Discord access, Badges next to your name, Special events or perks. Following shows support. Subscribing unlocks rewards.</p>
 							
-							</div>
-							<ul class="actions">
-								<li><a href="about/index.html" class="button">Learn more</a></li>
-							</ul>
+						</div>
+					</section>
+					
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">I subscribed now what?</h1>
+							<p>After you subscribe, you’ll receive a DM from either the streamer or a mod with your Discord access link. Once you’re in the Discord, you’ll find game server info, join links, updates, and more all in one place.
+							
 						</div>
 					</section>
 
-				<!-- Three -->
-    <section id="three" class="wrapper style1 fade-up">
-        <div class="inner">
-            <h2>Get in touch</h2>
-            <p>Send us a message to ask questions</p>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">What do I get from teir rewards?</h1>
+							<p>All tiers get full Discord access, including game servers, updates, events, and community perks, while higher tiers unlock more benefits: Tier 1 gives you Discord access along with basic sub perks like emotes, a badge, and ad‑free viewing; Tier 2 adds bonus emotes and extra community perks; and Tier 3 includes everything plus collab access, priority invites, and top‑tier community benefits, giving you more the higher you go.
+						
+						</div>
+					</section>
 
-            <div class="split style1">
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Charity Streams?</h1>
+							<p>Yes, we do charity streams — mostly led by Crimson. Whenever we’re raising money, all donation info will be shown directly on stream so you always know who we’re supporting and how to contribute.
+							
+						</div>
+					</section>
 
-                <!-- Contact Form -->
-                <section>
-                    <form method="POST" action="https://formspree.io/f/mqengaew">
-                        <div class="fields">
-                            <div class="field half">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" required />
-                            </div>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Can I donate?</h1>
+							<p>Yes — if we’re accepting donations, the links will be in our Twitch bios or shown during the stream. Everything you need will always be easy to find while we’re live.
+						
+						</div>
+					</section>
 
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" required />
-                            </div>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">What intagrations do we use?</h1>
+							<p>We use a mix of tools like OBS, Streamlabs, Nightbot, and more to keep everything running smoothly. Each streamer on the team has their own setup and style, so things vary from person to person. If you’re curious about the exact gear or software we use, just ask during stream — we’re always happy to talk about it live.</p>
+						
+						</div>
+					</section>
 
-                            <div class="field">
-                                <label for="message">Message</label>
-                                <textarea name="message" id="message" rows="5" required></textarea>
-                            </div>
-                        </div>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Have a question that wasn't listed?</h1>
+							<p>Join the streams and ask in our chat, you can also send us a <a href="../index.html#three">message.</a>. </p>
+							
+						</div>
+					</section>
+					
 
-                        <ul class="actions">
-                            <li><button type="submit" class="button submit">Send Message</button></li>
-                        </ul>
-                    </form>
-                </section>
 
-                <!-- FAQ Section -->
-                <section>
-                    <ul class="contact">
-                        <li>
-                            <h3>FAQs</h3>
-                            <a href="faq/index.html" class="button">Learn more</a>
 
-							<h3>Charity and Donations</h3>
-                            <a href="charity" class="button">Learn more</a>
 
-                        </li>
-                    </ul>
-                </section>
 
-            </div>
-        </div>
-    </section>
+
+
+		 </div>
+
 		<!-- Footer -->
-<footer id="footer" class="wrapper style1-alt">
-    <div class="inner">
-        <ul class="menu">
-			
-            <li>&copy; www.Sub-Server.com. All rights reserved.</li>
-            <li>Template by <a href="https://html5up.net">HTML5 UP</a>, used under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Modified, Hosted and managed by Appalachian IT Support: <a href="https://www.appalachianitsupport.com">Link</a>.</li>
-       		<a href="PrivServ/index.html">Privacy Policy & Terms of Service</a>
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+    			    <ul class="menu">
 
-		</ul>
-    </div>
-</footer>
+           			 <li>&copy; www.Sub-Server.com. All rights reserved.</li>
+           			 <li>Template by <a href="https://html5up.net">HTML5 UP</a>, used under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Modified, Hosted and managed by Appalachian IT Support: <a href="https://www.appalachianitsupport.com">Link</a>.</li>
+      			  	<a href="../PrivServ/index.html">Privacy Policy & Terms of Service</a>
+
+					</ul>
+				</div>
+			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/easteregg.js"></script>
-
-
-
-				<div id="terminal-overlay">
-		<div id="terminal-window">
-			<pre id="terminal-output">Hacker Mode Activated.
-	Type 'help' for commands.
-	</pre>
-			<div id="terminal-input-line">
-			<span>&gt;</span>
-			<input id="terminal-input" type="text" autofocus />
-			</div>
-		</div>
-	</div>
-
-	</body>
-
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
-
